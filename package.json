@@ -1,0 +1,23 @@
+{
+  "name": "webpack-change-detection",
+  "version": "1.0.0",
+  "description": "Detecting changes in the webpack watch graph",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benglynn/webpack-change-detection"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Benedict Glynn",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
